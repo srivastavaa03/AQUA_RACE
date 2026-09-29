@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+oilspill_env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies / builds
+node_modules/
+dist/
+.vite/
+
+# Large datasets / raw downloads
+data/
+wakashio_processed.data
+wakashio_tiles/
+ocean_data/
+
+# Generated prediction outputs
+predictions/
+prediction_examples/
+wakashio_predictions/
+
+# Generated investigation/runtime files
+investigation_history.json
+
+# Large model files
+*.pth
+*.pt
+*.onnx
+
+# Temporary / cache
+*.log
+*.tmp
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Separate nested project (has its own Git repo)
+Aquatrace-ai/
+
+/oilspill-frontend/
+
+# Script backups
+*_backup.py
+*_before_current_fix.py
