@@ -38,3 +38,16 @@ Install PyTorch first, then the rest of the requirements:
     pip install -r requirements.txt
 
 Development was done with torch 2.11.0+cu128. For a CPU-only machine, run `pip install torch` instead.
+
+## Trained model
+
+The trained segmentation model (`best_oilspill_unet.pth`, about 93 MB) is not stored in the repository. Download it from the release page:
+
+https://github.com/srivastavaa03/AQUA_RACE/releases/tag/v1.0-model
+
+Place the file in the project root, next to `predict_sentinel.py`:
+
+    AQUA_RACE/
+      best_oilspill_unet.pth
+      predict_sentinel.py
+      run_pipeline.py
