@@ -29,3 +29,12 @@ Oil spill detection and investigation platform: SAR-based spill segmentation, ge
 - Your `.env` credentials
 
 Place the model file in the location the prediction script expects before running detection.
+
+## Install order (GPU)
+
+Install PyTorch first, then the rest of the requirements:
+
+    pip install torch --index-url https://download.pytorch.org/whl/cu128
+    pip install -r requirements.txt
+
+Development was done with torch 2.11.0+cu128. For a CPU-only machine, run `pip install torch` instead.
