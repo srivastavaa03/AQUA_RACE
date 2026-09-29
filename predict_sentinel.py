@@ -7,7 +7,8 @@ import torch
 import segmentation_models_pytorch as smp
 
 
-MODEL_PATH = r"D:\oilspill_project\best_oilspill_unet.pth"
+from pathlib import Path
+MODEL_PATH = str(Path(__file__).resolve().parent / "best_oilspill_unet.pth")
 
 TILE_SIZE = 512
 OVERLAP = 64

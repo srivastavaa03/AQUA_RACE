@@ -11,7 +11,7 @@ import requests
 from dotenv import load_dotenv
 
 
-BASE = Path(r"D:\oilspill_project")
+BASE = Path(__file__).resolve().parent
 DATA = BASE / "data"
 PRED = BASE / "predictions"
 ENV = PRED / "environmental"
