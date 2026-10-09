@@ -56,3 +56,14 @@ Aquatrace-ai/
 # Script backups
 *_backup.py
 *_before_current_fix.py
+# Frontend test output and logs
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local temporary files
+*.swp
+*.swo
