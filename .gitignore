@@ -52,7 +52,6 @@ Thumbs.db
 # Separate nested project (has its own Git repo)
 Aquatrace-ai/
 
-/oilspill-frontend/
 
 # Script backups
 *_backup.py
